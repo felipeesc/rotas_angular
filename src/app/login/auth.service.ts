@@ -3,7 +3,6 @@ import { Injectable, EventEmitter } from '@angular/core';
 
 import { Usuario } from './usuario';
 
-
 @Injectable()
 export class AuthService {
 
@@ -31,7 +30,7 @@ export class AuthService {
     }
   }
 
-  usuarioEstaAutenticado(){
+  usuarioEstaAutenticado() {
     return this.usuarioAutenticado;
   }
 
